@@ -1,102 +1,142 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Novin Fanavar Payesh Harigh</title>
+
   <style>
     body {
       margin: 0;
-      font-family: sans-serif;
-      background: #f2f2f2;
-      direction: rtl;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f4f8;
     }
+
     .container {
-      padding: 16px;
+      max-width: 480px;
+      margin: auto;
+      padding: 15px;
     }
+
     .card {
-      background: #fff;
+      background: #ffffff;
       border-radius: 12px;
-      padding: 16px;
-      margin-bottom: 16px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
+
+    h1 {
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
     h2 {
-      margin-top: 0;
-      color: #d32f2f;
+      font-size: 16px;
+      margin-bottom: 10px;
     }
+
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 5px 0;
+    }
+
     a {
-      color: #1976d2;
+      color: #2aabee;
       text-decoration: none;
+      font-size: 14px;
     }
+
+    hr {
+      margin: 10px 0;
+      border: none;
+      border-top: 1px solid #eee;
+    }
+
     .btn {
       display: block;
       text-align: center;
       background: #2aabee;
-      color: white;
-      padding: 12px;
+      color: #ffffff;
+      padding: 10px;
       border-radius: 8px;
       margin-top: 10px;
+      font-size: 14px;
     }
   </style>
 </head>
+
 <body>
 
 <div class="container">
 
+  <h1>Novin Fanavar Payesh Harigh</h1>
+
+  <!-- ADDRESS -->
   <div class="card">
-    <h2>📍 آدرس شرکت</h2>
+    <h2>📍 Office Address</h2>
     <p>
-      تهران، خیابان شریعتی، نرسیده به چهارراه طالقانی، روبروی سینما سروش،
-      مجتمع تجاری میثاق، پلاک ۲۱۸، واحد ۱۸
+      Tehran, Shariati St., before Taleghani Crossroad,<br>
+      Opposite Soroush Cinema,<br>
+      Misagh Commercial Complex,<br>
+      No. 218, Unit 18
     </p>
-    <a class="btn" href="https://maps.app.goo.gl/7JciiAaXHiccH8dg7?g_st=iw">
-      مشاهده لوکیشن روی نقشه
+
+    <a class="btn" target="_blank"
+       href="https://maps.google.com/?q=35.XXXX,51.XXXX">
+      View Location on Map
     </a>
   </div>
 
+  <!-- CONTACT -->
   <div class="card">
-    <h2>📞 اطلاعات تماس</h2>
+    <h2>📞 Contact Information</h2>
 
-    <p><strong>واحد بازرگانی</strong></p>
-    <a href="tel:09123091289">09123091289</a><br>
+    <p><strong>Commercial Department</strong></p>
+    <a href="tel:+989123091289">+98 912 309 1289</a><br>
     <a href="mailto:commercial@nfphco.com">commercial@nfphco.com</a>
 
     <hr>
 
-    <p><strong>واحد فنی</strong></p>
-    <a href="tel:09016386666">09016386666</a><br>
-    <a href="mailto:Technical@nfphco.com">technical@nfphco.com</a>
+    <p><strong>Technical Department</strong></p>
+    <a href="tel:+989016386666">+98 901 638 6666</a><br>
+    <a href="mailto:technical@nfphco.com">technical@nfphco.com</a>
 
     <hr>
 
-    <p><strong>درخواست و سفارش</strong></p>
-    <a href="mailto:Info@nfphco.com">Info@nfphco.com</a>
+    <p><strong>Orders & Requests</strong></p>
+    <a href="mailto:info@nfphco.com">info@nfphco.com</a>
   </div>
 
-<div class="card">
-  <h2>👤 مدیرعامل</h2>
-
-    <a class="btn" target="_blank" href="ceo-card.pdf">
-    📇 مشاهده / دانلود کارت مدیرعامل
-  </a>
-</div>
-  
+  <!-- CEO -->
   <div class="card">
-    <h2>📷 اینستاگرام</h2>
-    <a class="btn" href="https://www.instagram.com/nfphco/" target="_blank">
-      مشاهده صفحه اینستاگرام
+    <h2>👤 CEO</h2>
+
+    <a class="btn" target="_blank" href="ceo-card.png">
+      View CEO Business Card
     </a>
   </div>
 
+  <!-- CATALOG -->
   <div class="card">
-    <h2>📄 کاتالوگ شرکت</h2>
-    <a class="btn" href="catalog.pdf" target="_blank">
-      دانلود کاتالوگ
+    <h2>📄 Company Catalog</h2>
+    <a class="btn" target="_blank" href="catalog.pdf">
+      Download Company Catalog
+    </a>
+  </div>
+
+  <!-- INSTAGRAM -->
+  <div class="card">
+    <h2>📷 Instagram</h2>
+    <a class="btn" target="_blank" href="https://www.instagram.com/nfphco/">
+      Visit Our Instagram Page
     </a>
   </div>
 
 </div>
 
-
-
+</body>
+</html>
