@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>سلام 👋</h2>
+<p>این اولین Mini App من است</p>
+</body>
+</html>
